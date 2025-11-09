@@ -1,0 +1,9 @@
+# Exported from Godot Engine
+
+newmtl Material.001
+Kd 0.057792 0.015297 0.005714
+Ks 0.500000 0.500000 0.500000
+
+newmtl Material.002
+Kd 0.007784 0.800000 0.142059
+Ks 0.500000 0.500000 0.500000

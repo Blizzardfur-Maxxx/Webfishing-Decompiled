@@ -1,0 +1,66 @@
+GDRE Tools v2.1.0
+Windows 10.0.22621, NVIDIA GeForce RTX 3060, vulkan
+Opening file: X:/SteamLibrary/steamapps/common/WEBFISHING/webfishing.exe
+Multiple passing candidates for bytecode version 13:
+3.5.0-stable (a7aad78), 3.2.0-stable (5565f55)
+Choosing only one that matches engine version: 3.5.0-stable (a7aad78).
+Loaded 1484 imported files
+Detected Engine Version: 3.5.2
+Detected Bytecode Revision: 3.5.0-stable (a7aad78)
+Verified 4056 files, no errors detected!
+Extracted 4056 files, no errors detected!
+
+Exporting scenes...
+*** Exporting 53 scenes took 5.28s
+
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     196
+Failed scripts:                         0
+Imported resources for export session:  1484
+Successfully converted:                 1483
+Lossy:                                  1
+Rewrote metadata:                       51
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     1
+-------------
+
+------
+
+Failed conversions:
+* res://Assets/Models/gridmaptiles.glb
+  * Errors during dependency resolution:
+  * Dependency res://Assets/Models/Material_018.material -> res://Assets/Models/Material_018.material does not exist.
+  * Dependencies:
+  * res://Assets/Models/main_001.material::Material -> res://Assets/Models/main_001.material, exists: yes
+  * res://Assets/Models/alt_001.material::Material -> res://Assets/Models/alt_001.material, exists: yes
+  * res://Assets/Models/main.material::Material -> res://Assets/Models/main.material, exists: yes
+  * res://Assets/Models/alt.material::Material -> res://Assets/Models/alt.material, exists: yes
+  * res://Assets/Models/Material_001.material::Material -> res://Assets/Models/Material_001.material, exists: yes
+  * res://Assets/Models/Material_002.material::Material -> res://Assets/Models/Material_002.material, exists: yes
+  * res://Assets/Models/Material_004.material::Material -> res://Assets/Models/Material_004.material, exists: yes
+  * res://Assets/Models/Material_003.material::Material -> res://Assets/Models/Material_003.material, exists: yes
+  * res://Assets/Models/Material_005.material::Material -> res://Assets/Models/Material_005.material, exists: yes
+  * res://Assets/Models/Material_006.material::Material -> res://Assets/Models/Material_006.material, exists: yes
+  * res://Assets/Models/Material_007.material::Material -> res://Assets/Models/Material_007.material, exists: yes
+  * res://Assets/Models/Material_010.material::Material -> res://Assets/Models/Material_010.material, exists: yes
+  * res://Assets/Models/Material_009.material::Material -> res://Assets/Models/Material_009.material, exists: yes
+  * res://Assets/Models/Material_018.material::Material -> res://Assets/Models/Material_018.material, exists: no
+  * res://Assets/Models/Material_017.material::Material -> res://Assets/Models/Material_017.material, exists: no
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.5.2 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+
